@@ -1,3 +1,29 @@
-<Solution>
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Contraseña_correcta
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string claveSecreta = "upem2026";
+            Console.WriteLine("Escribe la clave de acceso:");
+            string claveIngresada = Console.ReadLine();
+            if (claveIngresada == claveSecreta)
+            {
+                Console.WriteLine("Acceso concedido");
+            }
+            else
+            {
+                Console.WriteLine("Acceso denegado");
+            }
+
+        }
+    }
+}<Solution>
   <Project Path="Contraseña correcta/Contraseña correcta.csproj" />
 </Solution>
