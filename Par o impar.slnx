@@ -1,3 +1,28 @@
-<Solution>
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Par_o_impar
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Escribe un número entero:");
+            int x = int.Parse(Console.ReadLine());
+            if (x % 2 == 0)
+            {
+                Console.WriteLine("El número es par");
+            }
+            else
+            {
+                Console.WriteLine("El número es impar");
+            }
+
+        }
+    }
+}<Solution>
   <Project Path="Par o impar/Par o impar.csproj" />
 </Solution>
