@@ -1,3 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Multiplo_de_5
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Proporciona un número entero:");
+            int valor = int.Parse(Console.ReadLine());
+            if (valor % 5 == 0)
+            {
+                Console.WriteLine("El número es múltiplo de 5");
+            }
+
+        }
+    }
+}
 <Solution>
   <Project Path="Multiplo de 5/Multiplo de 5.csproj" />
 </Solution>
