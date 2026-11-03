@@ -1,0 +1,17 @@
+using System;
+class Programa
+{
+    static void Main()
+    {
+        Console.Write("Ingresa un número entero: ");
+        int numero = int.Parse(Console.ReadLine());
+        if (numero < 0)
+        {
+            Console.WriteLine("El número es negativo");
+            Console.WriteLine("Valor absoluto: " + Math.Abs(numero));
+        }
+    }
+}
+<Solution>
+  <Project Path="estructura if3/estructura if3.csproj" />
+</Solution>
