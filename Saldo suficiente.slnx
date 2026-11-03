@@ -1,3 +1,32 @@
-<Solution>
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Saldo_suficiente
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Digite el saldo de su tarjeta:");
+            int dinero = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite el costo del producto:");
+            int costo = int.Parse(Console.ReadLine());
+            if (dinero >= costo)
+            {
+                int restante = dinero - costo;
+                Console.WriteLine("Compra realizada");
+                Console.WriteLine("Saldo restante: " + restante);
+            }
+            else
+            {
+                Console.WriteLine("Saldo insuficiente");
+            }
+
+        }
+    }
+}<Solution>
   <Project Path="Saldo suficiente/Saldo suficiente.csproj" />
 </Solution>
