@@ -1,0 +1,16 @@
+using System;
+class Programa
+{
+    static void Main()
+    {
+        Console.Write("Ingresa tu edad: ");
+        int edad = int.Parse(Console.ReadLine());
+        if (edad >= 18)
+        {
+            Console.WriteLine("Eres mayor de edad");
+        }
+    }
+}
+<Solution>
+  <Project Path="estructura if/estructura if.csproj" Id="d0fa4c23-d64e-41ad-b0fa-a979286945f6" />
+</Solution>
