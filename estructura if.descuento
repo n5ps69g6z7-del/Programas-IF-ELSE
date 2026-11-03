@@ -1,0 +1,18 @@
+using System;
+class Programa
+{
+    static void Main()
+    {
+        Console.Write("Ingresa el monto total de la compra: ");
+        double monto = double.Parse(Console.ReadLine());
+        if (monto > 1000)
+        {
+            double totalConDescuento = monto * 0.90;
+            Console.WriteLine("Total con descuento: " + totalConDescuento);
+        }
+        Console.WriteLine("Gracias por su compra");
+    }
+}
+<Solution>
+  <Project Path="estructura if1/estructura if1.csproj" />
+</Solution>
