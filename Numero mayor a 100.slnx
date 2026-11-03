@@ -1,3 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Numero_mayor_a_100
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Escribe un valor numérico entero:");
+            int numero = int.Parse(Console.ReadLine());
+            if (numero > 100)
+            {
+                Console.WriteLine("El número es mayor que 100");
+            }
+
+        }
+    }
+}
 <Solution>
   <Project Path="Numero mayor a 100/Numero mayor a 100.csproj" />
 </Solution>
