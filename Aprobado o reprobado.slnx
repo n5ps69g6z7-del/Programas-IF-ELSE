@@ -1,3 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Aprobado_o_reprobado
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Escribe la calificación (del 0 al 10):");
+            double nota = double.Parse(Console.ReadLine());
+            if (nota >= 6)
+            {
+                Console.WriteLine("Aprobado");
+            }
+            else
+            {
+                Console.WriteLine("Reprobado");
+            }
+
+        }
+    }
+}
 <Solution>
   <Project Path="Aprobado o reprobado/Aprobado o reprobado.csproj" />
 </Solution>
