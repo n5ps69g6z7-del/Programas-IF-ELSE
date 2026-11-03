@@ -1,3 +1,28 @@
-<Solution>
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Positivo_o_negativo
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Teclea un número entero:");
+            int n = int.Parse(Console.ReadLine());
+            if (n >= 0)
+            {
+                Console.WriteLine("El número es positivo o cero");
+            }
+            else
+            {
+                Console.WriteLine("El número es negativo");
+            }
+
+        }
+    }
+}<Solution>
   <Project Path="Positivo o negativo/Positivo o negativo.csproj" />
 </Solution>
