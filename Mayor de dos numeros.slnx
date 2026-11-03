@@ -1,3 +1,29 @@
-<Solution>
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Mayor_de_dos_numeros
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Introduce el primer número:");
+            int numA = int.Parse(Console.ReadLine());
+            Console.WriteLine("Introduce el segundo número:");
+            int numB = int.Parse(Console.ReadLine());
+            if (numA > numB)
+            {
+                Console.WriteLine("El mayor es: " + numA);
+            }
+            else
+            {
+                Console.WriteLine("El mayor es: " + numB);
+            }
+        }
+    }
+}<Solution>
   <Project Path="Mayor de dos numeros/Mayor de dos numeros.csproj" />
 </Solution>
